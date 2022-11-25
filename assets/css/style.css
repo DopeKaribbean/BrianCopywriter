@@ -1,0 +1,669 @@
+/* 
+    Author : Karibbean Karma
+    Date : 25.05.2022
+    Version : 1.0
+*/
+
+/*=======================================================================*/
+/* G L O B A L */
+/*=======================================================================*/
+
+/*--------------------------------------------> Import font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Merriweather:wght@300;400;700;900&display=swap');
+
+/*--------------------------------------------> Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/*--------------------------------------------> Html font size*/
+html {
+    font-size: 30px;
+}
+
+/*--------------------------------------------> Body font*/
+body {
+    font-family: "Merriweather", serif;
+}
+
+/*--------------------------------------------> Properties h1*/
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.8rem;
+}
+
+/*--------------------------------------------> Properties h2*/
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.3rem;
+    color: #000;
+}
+
+/*--------------------------------------------> Properties h3*/
+h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+/*--------------------------------------------> Properties p*/
+p {
+    font-size: 0.7rem;
+    color: #131313;
+}
+
+
+/*=======================================================================*/
+/* H E A D E R */
+/*=======================================================================*/
+
+/*--------------------------------------------> Properties container*/
+.container {
+    max-width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+/*--------------------------------------------> Properties menu*/
+.items {
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.navigation {
+    list-style: none;
+    font-family: "Josefin Sans", sans-serif;
+    max-width: 1090;
+    min-height: 70px;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+}
+
+/*--------------------------------------------> Properties liens menu*/
+.item1, .item2, .item3, .item4 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+li > a:hover {
+    color: #ee9b00;
+    font-size: 0.9rem;
+    transition: background-color .4s;
+}
+
+
+/*=======================================================================*/
+/* S E C T I O N   O N E   H O M E   P A G E*/
+/*=======================================================================*/
+
+/*--------------------------------------------> Background image*/
+.section1 {
+    width: 100%;
+    height: 1000px;
+    background: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*--------------------------------------------> H1 section one*/
+.container h1 {
+    max-width: 500px;
+    margin-left: auto;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-top: 400px;
+    color: #fff;
+}
+
+/*--------------------------------------------> P section one*/
+.container .min-width {
+    max-width: 500px;
+    font-weight: 200;
+    color: #fff;
+    font-size: 0.6rem;
+    line-height: 30px;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*--------------------------------------------> Boutons section one*/
+.buttons {
+    max-width: 500px;
+    margin-left: auto;
+    display: flex;
+}
+
+.button1, .button2 {
+    max-width: 500px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.7rem;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button1 {
+    border: 0;
+    border-radius: 8px;
+    color: #000;
+    background-color: #fff;
+    margin-right: 0px;
+}
+.button1:hover {
+    background-color: #ee9b00;
+}
+.button1 > a {
+    color: #000;
+    text-decoration: none;
+}
+.button1 a:hover {
+    color: #fff;
+    margin-right: 0px;
+}
+
+.button2 {
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #000;
+}
+.button2 > a {
+    color: #fff;
+    text-decoration: none;
+}
+.button2 a:hover {
+    color: #ee9b00;
+    margin-right: 0px;
+}
+
+
+/*=======================================================================*/
+/* S E C T I O N   T W O   H O M E   P A G E*/
+/*=======================================================================*/
+
+/*--------------------------------------------> Mesures Section 2*/
+.section2 {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/*--------------------------------------------> Properties h2 section 2*/
+.container > h2 {
+    margin-top: 100px;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+}
+
+/*--------------------------------------------> Properties p section 2*/
+.container > p {
+    margin-top: 50px;
+    color: #131313;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*--------------------------------------------> Section 2 */
+.flex1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*--------------------------------------------> Properties colonnes section 2*/
+.columns {
+    margin-top: 50px;
+    width: 330px;
+    height: 260px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px #7e7d7d4d;
+}
+
+/*--------------------------------------------> Properties h3 colonne*/
+.columns > h3 {
+    margin-bottom: 15px;
+}
+
+/*--------------------------------------------> Properties p colonne*/
+.columns > p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 0.6rem;
+}
+
+/*--------------------------------------------> Bouton Read more*/
+.button3 {
+    max-width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    background: #000;
+    font-size: 0.5rem;
+}
+.button3 > a {
+    color: #fff;
+    text-decoration: none;
+}
+.button3:hover {
+    background: #ee9b00;
+    border: 0;
+}
+
+
+/*=======================================================================*/
+/* S E C T I O N   T H R E E   H O M E P A G E*/
+/*=======================================================================*/
+
+/*--------------------------------------------> Mesures Section 3*/
+.section3 {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #000;
+    padding-bottom: 50px;
+}
+
+.section3 .container > h2 {
+    padding-top: 60px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+/*--------------------------------------------> Properties p section 3*/
+.section3 .container > p {
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*--------------------------------------------> Bouton 4*/
+.button4 {
+    max-width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    background: #000;
+    font-size: 0.6rem;
+    color: #000;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+.button4 > a {
+    color: #000;
+    text-decoration: none;
+}
+.button4:hover {
+    background: #ee9b00;
+    border: 0;
+}
+
+
+/*=======================================================================*/
+/* S E C T I O N   F O U R   H O M E P A G E*/
+/*=======================================================================*/
+
+/*--------------------------------------------> Section 2 */
+.flex2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.flex2 img {
+    width: 300px;
+    height: auto;
+}
+
+/*--------------------------------------------> Properties colonnes section 2*/
+.flex2 > .columnFlex {
+    margin-top: 30px;
+    width: 330px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px #7e7d7d4d;
+}
+
+/*--------------------------------------------> Properties h3 colonne*/
+.flex2 .columnFlex > h3 {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+/*--------------------------------------------> Properties p colonne*/
+.columnFlex > p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+
+/*=======================================================================*/
+/* F O O T E R */
+/*=======================================================================*/
+
+/*--------------------------------------------> Section 2 */
+.footer {
+    width: 100%;
+    height: 6vh;
+    background-color: #000;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 00.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/*=======================================================================*/
+/* S E C T I O N   O N E   C O N T A C T*/
+/*=======================================================================*/
+
+/*--------------------------------------------> Contact section 1*/
+.section1-contact {
+    margin-top: 50px;
+    width: 100%;
+}
+
+/*--------------------------------------------> P section 1 contact*/
+.section1-contact p {
+    font-size: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+/*--------------------------------------------> Mail section 1 contact*/
+.section1-contact a {
+    font-size: 1.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+/*--------------------------------------------> Informations contact*/
+.informations-contact {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.location,.phone {
+  display: flex;
+}
+
+.informations-contact i {
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.informations-contact p {
+    margin-top: 0px;
+}
+/*--------------------------------------------> Ul section 1 contact*/
+.section1-contact ul {
+    padding-top: 50px;
+    list-style: none;
+    display: flex;
+}
+
+/*--------------------------------------------> Li section 1 contact*/
+.section1-contact li {
+    display: flex;
+}
+
+/*--------------------------------------------> Properties icon*/
+i {
+    width: 30px;
+    height: auto;
+}
+
+.bla {
+    display: flex;
+}
+
+/*--------------------------------------------> Properties icon*/
+.span-name {
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+
+/*--------------------------------------------> Span section 1 contact*/
+.section1-contact span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+}
+
+.section1-contact .span1 {
+    font-family: "Merriweather", serif;
+    font-size: 0.5rem;
+}
+
+
+/*=======================================================================*/
+/* S E C T I O N   T W O   C O N T A C T*/
+/*=======================================================================*/
+
+/*--------------------------------------------> P section 3 contact*/
+.box-contact {
+    padding-top: 100px;
+    display: flex;
+}
+
+/*--------------------------------------------> P section 2 contact*/
+.box-contact .container {
+    display: flex;
+    max-width: 850px;
+    display: inline-block;
+}
+
+/*--------------------------------------------> P section 2 contact*/
+.wrapper-form {
+    width:45%;
+}
+  
+.img-wrapper {
+    width: 50%;
+}
+  
+.img-form {
+    width: 100%;
+}
+  
+.formulaire {
+    -webkit-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.25); 
+    box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+  
+.formulaire label {
+    font-family: 'Josefin Sans', sans-serif;
+}
+  
+.formulaire input, .formulaire textarea {
+    margin-top: 5px;
+    font-size:0.7rem;
+    border-radius: 5px;
+    border: 1px solid rgb(151, 151, 151);
+    font-family: 'Josefin Sans', sans-serif;
+}
+  
+.formulaire .btn {
+    margin-left: auto;
+}
+  
+
+
+
+
+
+
+/*--------------------------------------------> Properties formulaire*/
+fieldset {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 10px 30px #7e7d7d4d;
+}
+
+.champ {
+    display: flex;
+    margin-top: 20px;
+}
+
+label {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.8rem;
+}
+
+input {
+    width: 100%;
+}
+
+/*--------------------------------------------> */
+.right > img {
+    width: 400px;
+    height: auto;
+}
+
+
+/*=======================================================================*/
+/* S E C T I O N   O N E   T E S T I M O N I A L*/
+/*=======================================================================*/
+
+/*--------------------------------------------> Background image*/
+.section1-testi {
+    width: 100%;
+    height: 550px;
+    background: url(../images/hero.jpg);
+    background-position: center;
+}
+
+.section1-testi .container {
+    padding-top: 100px;
+}
+.section1-testi .container > h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.section1-testi .container > p {
+    color: #fff;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+
+/*=======================================================================*/
+/* S E C T I O N   T W O   T E S T I M O N I A L*/
+/*=======================================================================*/
+
+/*--------------------------------------------> Properties section 2*/
+.section2-testi {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.section2-testi p {
+    padding-top: 15px;
+    line-height: 30px;
+    font-size: 0.5rem;
+}
+
+
+/*=======================================================================*/
+/* S E C T I O N   T H R E E   T E S T I M O N I A L*/
+/*=======================================================================*/
+
+/*--------------------------------------------> Section 3*/
+.section3-testi{
+    width: 100%;
+}
+
+.section3-testi .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.avis {
+    width: 550px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+/*--------------------------------------------> Image avis*/
+.avis img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content {
+    display: inline-block;
+    font-size: 0.7rem;
+}
+/*--------------------------------------------> Description avis*/
+.content > .description {
+    padding-top: 20px;
+    font-size: 0.6rem;
+    line-height: 30px;
+    padding-left: 20px;
+    font-weight: 300;
+}
+
+.content > .nickname {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.6rem;
+}
+
+.content > .ceo {
+    padding-left: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.6rem;
+}
